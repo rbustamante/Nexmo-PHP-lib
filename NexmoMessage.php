@@ -36,7 +36,7 @@ class NexmoMessage {
 	/**
 	 * @var array The most recent parsed Nexmo response.
 	 */
-	private $nexmo_response = '';
+	public $nexmo_response = '';
 	
 
 	/**
